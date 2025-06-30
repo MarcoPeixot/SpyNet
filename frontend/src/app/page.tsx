@@ -23,7 +23,7 @@ export default function Home() {
               className="bg-primary hover:bg-primary/90 text-white px-8 py-3 text-lg border-2 border-primary/80 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200"
               asChild
             >
-              <Link href="/saiba-mais" className="flex items-center gap-2 w-80 h-15">
+              <Link href="/register" className="flex items-center gap-2 w-80 h-15">
                 <Zap className="h-5 w-5" />
                 Learn More
               </Link>
@@ -128,7 +128,7 @@ export default function Home() {
               className="bg-transparent hover:bg-[#32ADE6]/10 text-white text-lg px-10 py-5 border-2 border-[#32ADE6] rounded-2xl shadow-md hover:shadow-lg transition-all duration-200 flex items-center gap-3 w-full max-w-sm mx-auto"
               asChild
             >
-              <Link href="/apis">
+              <Link href="/marketplace">
                 <RocketIcon className="h-5 w-5 text-[#32ADE6]" />
                 <span className="font-semibold">Find Agents</span>
               </Link>
@@ -174,7 +174,7 @@ export default function Home() {
                   className="bg-transparent hover:bg-[#32ADE6]/10 text-white text-lg px-10 py-5 border-2 border-[#32ADE6] rounded-2xl shadow-md hover:shadow-lg transition-all duration-200 flex items-center gap-3 w-full max-w-sm mx-auto"
                   asChild
                 >
-                  <Link href="/cadastrar-agente">
+                  <Link href="/register">
                     <RocketIcon className="h-5 w-5 text-[#32ADE6]" />
                     <span className="font-semibold">Learn More</span>
                   </Link>
